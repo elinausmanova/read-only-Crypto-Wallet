@@ -1,0 +1,69 @@
+.Welcome {
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid #504f4f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(243, 246, 254, 0.2), 0 6px 20px 0 rgba(243, 246, 254, 0.19);
+    width: 32%;
+    padding: 32px 24px;
+}
+
+.textWelcome, .textConnect {
+    color: #F3F6FE;
+}
+
+.textConnect {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input {
+    height: 24px;
+    background-color: #010101;
+    border: 0.5px solid #F3F6FE;
+    border-radius: 5px;
+    width: 50%;
+    color: #F3F6FE;
+    padding: 8px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #F3F6FE;
+  -webkit-box-shadow: 0 0 0 30px #010101 inset !important;
+}
+
+.button {
+    height: 60px;
+    padding: 10px 32px;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 550;
+    background-color: #010101;
+    border-color: #F3F6FE;
+    color: #F3F6FE;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #504f4f;
+}
+
+.connect {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+::placeholder {
+    color: #504f4f;
+}
+
+.errorMessage {
+    color: #F3F6FE;
+    font-weight: 400;
+    font-size: 12px;
+}

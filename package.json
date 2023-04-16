@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "evmosjs": "^0.3.3"
+  }
+}

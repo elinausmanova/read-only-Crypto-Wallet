@@ -1,0 +1,71 @@
+.Wallet {
+    margin-top: 10px;
+    padding: 32px;
+    color: #F3F6FE;
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs {
+    color: #504f4f;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #F3F6FE !important; 
+    font-weight: 500;
+ }
+
+ .ant-tabs-tab.ant-tabs-tab .ant-tabs-tab-btn:hover {
+    color: #F3F6FE !important;
+ }
+
+ .ant-tabs .ant-tabs-ink-bar {
+    background: #F3F6FE !important;
+ }
+
+ .ant-tabs-top >.ant-tabs-nav::before {
+    border-bottom: 1px solid #504f4f !important;
+ }
+
+ .addressInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-left: auto;
+ }
+
+ .addressInfo p {
+    align-self: flex-start;
+ }
+
+ .textWalletAddress {
+    font-size: 12px;
+ }
+
+ .walletAddress {
+    font-size: 14px;
+    border: 0.5px solid #504f4f;
+    border-radius: 20px;
+    padding: 6px;
+ }
+
+ .walletAddress:hover {
+    border: 1px solid #F3F6FE;
+    background-color: #272727;
+ }
+
+ .buttonDisconnect {
+   height: 32px;
+   padding: 4px 32px;
+   border-radius: 16px;
+   font-size: 16px;
+   font-weight: 550;
+   background-color: #010101;
+   border-color: #F3F6FE;
+   color: #F3F6FE;
+   cursor: pointer;
+}
+
+.buttonDisconnect:hover {
+   background-color: #504f4f;
+}

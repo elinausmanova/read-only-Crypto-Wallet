@@ -1,0 +1,46 @@
+.type {
+    font-size: 12px;
+    font-weight: 400;
+    color: #504f4f;
+    margin: 0;
+}
+
+.info {
+    font-size: 14px;
+    font-weight: 600;
+    color: #F3F6FE;
+    margin: 0;
+}
+
+.ant-divider {
+    margin: 10px !important;
+}
+
+.ant-btn {
+    background-color: #F3F6FE !important;
+    color: #010101 !important;
+}
+
+.ant-btn:hover {
+    background-color: #504f4f !important;
+    color: #010101 !important;
+    border: 0.5px solid #010101 !important;
+}
+
+.ant-modal-content, .ant-modal-title {
+    background-color: #010101 !important;
+}
+
+.ant-modal {
+    box-shadow: 0 4px 8px 0 rgba(243, 246, 254, 0.2), 0 6px 20px 0 rgba(243, 246, 254, 0.19);
+    border-radius: 10px;
+}
+
+.ant-modal-title {
+    color: #F3F6FE !important;
+    padding-bottom: 10px;
+}
+
+.ant-modal {
+    padding-bottom: 0px;
+}
